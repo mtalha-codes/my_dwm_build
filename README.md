@@ -49,6 +49,6 @@ cd .local/share/dwm-titus && rm -rf * && git clone https://github.com/mtalha-cod
 ```bash
 sudo make clean install
 ```
-10. Now press SUPER+SHIFT+Q to restart DWM and then re-login to see effects
+10. Now press SUPER+SHIFT+Q to logout of DWM and then re-login to see effects
 
 11. Please note that this mini wiki is designed for me, and if you have a moderate exposure to arch linux and ricing etc then you can modify the wiki for yourself according to your needs
