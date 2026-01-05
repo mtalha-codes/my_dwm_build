@@ -37,11 +37,18 @@ sudo pacman -Sy archlinux-keyring archinstall && archinstall
 curl -fsSL christitus.com/linux | sh
 ```
 8. press v to enter multi select mode and press tab on the following options
-- DWM-Titus
+- DWM-Titus(Grub Theme: Shodan, SDDM Theme: Japanese Aesthetic)
 - Bash Prompt
 - Alacritty 
 - and other options according to your needs, but for this setup these three are enough 
 8. After that, run this command
 ```bash
-cd .local/share/dwm-titus && rm -r * && git clone https://github.com/mtalha-codes/my_dwm_build.git . 
+cd .local/share/dwm-titus && rm -rf * && git clone https://github.com/mtalha-codes/my_dwm_build.git . 
 ```
+9. Finally run 
+```bash
+sudo make clean install
+```
+10. Now press SUPER+SHIFT+Q to restart DWM and then re-login to see effects
+
+11. Please note that this mini wiki is designed for me, and if you have a moderate exposure to arch linux and ricing etc then you can modify the wiki for yourself according to your needs
