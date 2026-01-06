@@ -1,5 +1,5 @@
 # My Build of DWM
-This repository include my own build of the dynamic window manager also known as dwm and is based on the configuration crafted by Christ Titus yes the main behind the famous Windows utility and Linux Utility.
+This repository include my own build of the dynamic window manager also known as dwm and is based on the configuration crafted by Christ Titus yes the man behind the famous Windows utility and Linux Utility.
 
 ## How to install
 
