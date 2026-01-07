@@ -52,16 +52,16 @@ static const char etagf[] = "[%s]";     /* format of an empty tag */
 static const int lcaselbl = 0;          /* 1 means make tag label lowercase */
 
 static const Rule rules[] = {
-    /* class                instance  title           tags mask  isfloating  isterminal  noswallow  monitor  */
-    { "St",                 NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "kitty",              NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "alacritty",          NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "ghostty",            NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "warp-terminal",      NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "terminator",         NULL,     NULL,           0,         0,          1,          0,        -1 },
-    { "thunar",             NULL,     NULL,           0,         0,          0,          0,        -1 },
-    { "clion",              NULL,     NULL,           2,         0,          0,          0,        -1 },
-    { NULL,                 NULL,     "Event Tester", 0,         0,          0,          1,        -1 }, /* xev */
+    /* class                  instance  title           tags mask  isfloating  isterminal  noswallow  monitor  */
+    { "St",                   NULL,     NULL,           0,         0,          1,          0,        -1 },
+    { "kitty",                NULL,     NULL,           0,         0,          1,          0,        -1 },
+    { "alacritty",            NULL,     NULL,           0,         0,          1,          0,        -1 },
+    { "ghostty",              NULL,     NULL,           0,         0,          1,          0,        -1 },
+    { "terminator",           NULL,     NULL,           0,         0,          1,          0,        -1 },
+    { "thunar",               NULL,     NULL,           0,         0,          0,          0,        -1 },
+    { "clion",                NULL,     NULL,           2,         0,          0,          0,        -1 },
+    { "google-chrome-stable", NULL,     NULL,           2,         0,          0,          0,        -1 },
+    { NULL,                   NULL,     "Event Tester", 0,         0,          0,          1,        -1 }, /* xev */
 };
 
 /* layout(s) */
