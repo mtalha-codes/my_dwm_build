@@ -60,7 +60,6 @@ static const Rule rules[] = {
     { "terminator",           NULL,     NULL,           0,         0,          1,          0,        -1 },
     { "thunar",               NULL,     NULL,           0,         0,          0,          0,        -1 },
     { "clion",                NULL,     NULL,           2,         0,          0,          0,        -1 },
-    { "google-chrome-stable", NULL,     NULL,           2,         0,          0,          0,        -1 },
     { NULL,                   NULL,     "Event Tester", 0,         0,          0,          1,        -1 }, /* xev */
 };
 
